@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Great+Vibes&display=swap');
+body{
+    background-image: linear-gradient(to bottom, lightblue,lightpink,lightyellow);
+    height: 100vh;
+}
+.Navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: rebeccapurple;
+}
+.link{
+    color: white;
+    font-size: 2rem;
+    padding: 12px 3px;
+    font-family: 'Great Vibes';
+    text-decoration: none;
+    
+}
+.myTable{
+    background-color: white;
+    /* border: 1px solid black; */
+    border-radius: 8px;
+    width: 80%;
+    padding: 23px 12px;
+    /* margin: 4% 2%; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* .name{
+    position: relative;
+    right: 160px;
+} */
+#btn{
+   background-color: lavenderblush;
+   width: 12%;
+   font-size: 18px;
+   padding: 12px 3px;
+   border-radius: 21%;
+   /* margin-right: 6%; */
+   /* border-radius: 36px; */
+}
+.link:hover{
+    color: pink;
+}
+
+#topup{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.myForm{
+    width: 40%;
+    /* height: 70%; */
+    padding: 15px 6px;
+    border: 2px solid red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.formEle{
+    display: flex;
+    padding: 12px 3px;
+    flex-wrap: wrap;
+}
+input{
+    color: purple;
+    padding: 6px;
+    margin: 12px 3px;
+    background-color: lightpink;
+}
+.myButton{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+#bbtn{
+    background-color: aliceblue;
+    width: 20%;
+    font-size: 17px;
+    padding: 12px 3px;
+    border: none;
+    border-radius: 30px;
+}
+#bbbtn{
+    background-color: lightslategray;
+    width: 20%;
+    font-size: 17px;
+    padding: 12px 3px;
+    border: none;
+    border-radius: 30px;
+}
